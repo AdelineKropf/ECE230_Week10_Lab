@@ -33,4 +33,9 @@ In this lab, you learned about the basic building block of sequential circuits: 
 
 ### What importance is memory to digital circuits?
      The importance of memory to digital circuits is that memory allows a digital 
-     circuit to maintain its output, even when its input is no longer there. 
+     circuit to maintain its output, even when its input is no longer there, thus it
+     allows for sequential logic instead of just combinatorial logic. Sequential 
+     logic is vital for things like computers. Memory allows for clock control which
+     is when values can only be updated at specific time intervals, edge triggering 
+     (only being triggered at the edge of intervals) which prevent unwanted 
+     instantaneous changes, and for things like data processing and manipulation.

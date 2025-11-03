@@ -1,4 +1,4 @@
-module Demultiplexor_4(
+module Demultiplexor_8(
     input [7:0] data,
     input [1:0] sel,
     output reg [7:0] A,

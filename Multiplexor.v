@@ -1,4 +1,4 @@
-module Multiplexor_4(
+module Multiplexor(
     input [7:0] input0,
     input [7:0] input1,
     input [7:0] input2,

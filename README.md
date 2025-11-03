@@ -25,7 +25,11 @@ In this lab, you learned about the basic building block of sequential circuits: 
      a sequential circuit using memory.
 
 ### What is the meaning of always @(*) in a sensitivity block?
-     The meaning of always @(*) in a sensitivity block is 
+     The part of the sensitivity block after the @ symbol is called the sensitivity 
+     list and informs the program which inputs can affect the output of the block.
+     When you use * as the sensitivity list it tells the program that it can use 
+     anything on the right side of the assignment as an input in the block. Using
+     @(*) makes it so that the block reacts to any input change.
 
 ### What importance is memory to digital circuits?
      The importance of memory to digital circuits is that memory allows a digital 

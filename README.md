@@ -28,3 +28,5 @@ In this lab, you learned about the basic building block of sequential circuits: 
      The meaning of always @(*) in a sensitivity block is 
 
 ### What importance is memory to digital circuits?
+     The importance of memory to digital circuits is that memory allows a digital 
+     circuit to maintain its output, even when its input is no longer there. 
